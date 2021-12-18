@@ -234,6 +234,7 @@ public class Driver {
         Item item6 = new Item("Hat", "Clothe", "A pink flower hat");
         Item item7 = new Item("Jeans", "Clothe", "A navy Forever21 jeans");
         Item item8 = new Item("Water", "Drink", "H2O");
+        Item item9 = new Item("Clock", "Decoration", "A vintage brown clock");
         container1.addItem(item6);
         container1.addItem(item7);
         container2.addItem(item8);
@@ -245,6 +246,7 @@ public class Driver {
         location2.addItem(item5);
         location1.addItem(container1);
         location2.addItem(container2);
+        location4.addItem(item9);
 
         currLocation = location4;
     }
