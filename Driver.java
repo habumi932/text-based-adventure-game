@@ -5,6 +5,8 @@ public class Driver {
     private static ContainerItem myInventory;
     public static void main(String[] args){
 
+        System.out.println("WELCOME TO THE AMAZING DEPAUW WORLD!");
+        
         myInventory = new ContainerItem("Backpack", "Container", "What you're carrying");
 
         Scanner myScanner = new Scanner(System.in);
